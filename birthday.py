@@ -19,12 +19,14 @@ def calculate_age_and_birthday(birth_year, birth_month, birth_day):
 
 # Example usage
 if __name__ == "__main__":
-    birth_year = 1995  # Replace with actual values
-    birth_month = 12
-    birth_day = 25
+    birth_year = 2006  # Replace with actual values
+    birth_month = 6
+    birth_day = 12
     
     age, next_birthday, days_until_birthday = calculate_age_and_birthday(birth_year, birth_month, birth_day)
     
+   
+   
     print(f"You are {age} years old.")
     print(f"Your next birthday is on {next_birthday}.")
     print(f"Days remaining until your next birthday: {days_until_birthday}")
