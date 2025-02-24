@@ -23,7 +23,7 @@ birth_month = int(input("Enter your birth month (MM): "))
 birth_day = int(input("Enter your birth day (DD): "))
 
 # Compute age and countdown
-age, days_until_birthday = calculate_age_and_countdown(birth_year, birth_month, birth_day)
+age, days_until_birthday = calculate_age_and_birthday(birth_year, birth_month, birth_day)
 
 # Display results
 print(f"You are {age} years old.")
