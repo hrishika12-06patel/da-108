@@ -15,18 +15,16 @@ def calculate_age_and_birthday(birth_year, birth_month, birth_day):
     # Calculate days until next birthday
     days_until_birthday = (next_birthday - today).days
     
-    return age, next_birthday.strftime('%Y-%m-%d'), days_until_birthday
+    return age, days_until_birthday
 
-# Example usage
-if __name__ == "__main__":
-    birth_year = 2006  # Replace with actual values
-    birth_month = 6
-    birth_day = 12
-    
-    age, next_birthday, days_until_birthday = calculate_age_and_birthday(birth_year, birth_month, birth_day)
-    
-   
-   
-    print(f"You are {age} years old.")
-    print(f"Your next birthday is on {next_birthday}.")
-    print(f"Days remaining until your next birthday: {days_until_birthday}")
+# Get user input
+birth_year = int(input("Enter your birth year (YYYY): "))
+birth_month = int(input("Enter your birth month (MM): "))
+birth_day = int(input("Enter your birth day (DD): "))
+
+# Compute age and countdown
+age, days_until_birthday = calculate_age_and_countdown(birth_year, birth_month, birth_day)
+
+# Display results
+print(f"You are {age} years old.")
+print(f"There are {days_until_birthday} days left until your next birthday.")
