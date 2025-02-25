@@ -1,0 +1,14 @@
+File Management Summary
+=======================
+TXT files: 2
+CSV files: 0
+JSON files: 0
+JPG files: 1
+PNG files: 0
+LOG files: 1
+Total files moved: 4
+
+Sample file names:
+TXT: data.txt
+JPG: image.jpg
+LOG: dat.log
