@@ -1,0 +1,14 @@
+Word Count: 175
+Sentence Count: 46
+Average Word Length: 4.23
+Top 10 Words:
+si: 3
+ma: 2
+kaip: 2
+kako: 2
+habari: 2
+mai: 2
+sain: 2
+uu: 2
+ga: 2
+ya: 2
